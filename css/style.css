@@ -1,0 +1,124 @@
+p{
+    margin: 0;
+}
+.container-fluid{
+    background-color: #1B1B19;
+    color: #ffffff;
+}
+.letterSpacing{
+    letter-spacing: 3px;
+}
+.margin-top-s{
+    margin-top:10px;
+}
+.margin-top-l{
+    margin-top: 33px;
+}
+.captilize{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.header-with-border{
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+}
+.feature-image img{
+    width: 100%
+}
+.project-subheading{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(128,128,128);
+}
+.project-body{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: rgb(128,128,128);
+}
+.btn-custom{
+    background: #1B1B19;
+    color: white;
+    border-radius: 0px;
+    border: 2px solid;
+}
+.image-body{
+    width: 100%;
+    margin-top: 30px;
+}
+.img-containor{
+    position: relative;
+}
+.img-containor button{
+    position: absolute;
+    top: 40px; /*your button position*/
+    right: 25px;
+    color: #ffffff;
+    background: #1B1B19;
+}
+.no-padding{
+    padding: 0px
+}
+/**** Modal Pop up design ***/
+.modal-title{
+    font-weight: bold;
+}
+.modal-header{
+    border-bottom: 0px;
+}
+.modal-header button{
+    border: 1px solid #1B1B19;
+
+}
+.modal-header .close{
+     padding: 3px 5px;
+}
+.close{
+    opacity: 1;
+    font-weight: normal;
+    color: #1B1B19;
+   
+}
+.modal-content{
+    border-radius: 0px;
+}
+.modal-body p{
+    color: rgb(128,128,128);
+    padding: 20px 40px 30px
+}
+.heading-secondary{
+    text-align: right;
+}
+
+	
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .remove-margin{
+        margin: 0px;
+    }
+    .sub-category-pading{
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    .sub-category-pading .img-containor button{
+        top: 15px !important; /*your button position*/
+    }
+    .heading-secondary{
+        text-align: center;
+    }
+}
