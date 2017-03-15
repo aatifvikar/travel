@@ -34,7 +34,9 @@ p{
     margin-top: 10px;
     margin-bottom: 15px;
     color: rgb(128,128,128);
+    text-overflow: ellipsis;
 }
+/* Button design as per the UX*/
 .btn-custom{
     background: #1B1B19;
     color: white;
@@ -54,9 +56,6 @@ p{
     right: 25px;
     color: #ffffff;
     background: #1B1B19;
-}
-.no-padding{
-    padding: 0px
 }
 /**** Modal Pop up design ***/
 .modal-title{
@@ -120,5 +119,8 @@ p{
     }
     .heading-secondary{
         text-align: center;
+    }
+    .no-padding-xs{
+        padding: 0px;
     }
 }

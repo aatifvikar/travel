@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Travel Destinations</title>
+    <title>Travel Stations</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- I have included bootstrap in this project as it is efficient to build a responsive web page in less time  -->
@@ -27,8 +27,8 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-offset-1 col-md-10 captilize">
-                <h6 class="heading-secondary">Travel Destinations</h6>
+            <div class="col-md-offset-1 col-md-10 text-center">
+                <h6 class="heading-secondary captilize">Travel Stations</h6>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
@@ -60,11 +60,7 @@
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                 </div>
-                
-            </div>
-
-            <div class="col-md-offset-1 col-md-10 text-center col-sm-offset-0 col-sm-12 col-xs-offset-0">
-                <h1 class="project-name captilize letterSpacing margin-top-l">Travel Destinations</h1>
+                <div><h1 class="project-name captilize ">Travel Stations</h1></div>
                 <div class="project-subheading">
                     <span class="captilize">Service offering</span>
                     <span><i>for&nbsp;</i></span>
@@ -79,9 +75,9 @@
                     <button type="button" class="btn btn-default btn-custom">Visit Website</button>
             </div>
             <div class="col-md-offset-1 col-md-10 img-containor ">
-                <img class="image-body" src="images/body-img1.jpg" alt="australia">
+                <img class="image-body launch-modal" src="images/body-img1.jpg" alt="australia" data="australia">
                
-                <button type="button" class="button-click" date-role="button" data="australia">&#43;</button>
+                <button type="button" class="launch-modal" date-role="button" data="australia">&#43;</button>
             </div>
 
             <div class="col-md-offset-2 col-md-8 text-center">
@@ -92,17 +88,17 @@
                     sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
             </div>
             <div class="col-md-offset-1 col-md-10 img-containor ">
-                <img class="image-body" src="images/new-zealand.jpg" alt="new Zealand">
+                <img class="image-body launch-modal" src="images/new-zealand.jpg" alt="new Zealand" data="New Zealand">
                
-                <button type="button" class="button-click" data-role="button" data="New Zealand">&#43;</button>
+                <button type="button" class="launch-modal" data-role="button" data="New Zealand">&#43;</button>
             </div>
             <div class="col-md-offset-1 col-md-5 img-containor">
-                <img class="image-body" src="images/body-img2.jpg" alt="amsterdam">
-                <button type="button" class="button-click" data-role="button" data="amsterdam">&#43;</button>
+                <img class="image-body launch-modal" src="images/body-img2.jpg" data="amsterdam" alt="amsterdam">
+                <button type="button" class="launch-modal" data-role="button" data="amsterdam">&#43;</button>
             </div>
             <div class="col-md-5 img-containor">
-                <img class="image-body" src="images/body-img3.jpg" alt="singapore">
-                <button type="button" class="button-click" data-role="button" data="Singapore">&#43;</button>
+                <img class="image-body launch-modal" src="images/body-img3.jpg" alt="singapore" data="Singapore">
+                <button type="button" class="launch-modal" data-role="button" data="Singapore">&#43;</button>
             </div>
 
             <div class="col-md-offset-2 col-md-8 text-center">
@@ -115,64 +111,62 @@
             <div class="col-md-offset-1 col-md-10">
                 <div class="container-fluid sub-category-pading">
                     <div class="row">
-                        <div class="col-md-2 col-sm-12">
+                        <div class="col-md-2 col-sm-4 col-xs-12">
                            <h5 class="captilize margin-top-l header-with-border">Greece</h5>
                            <p class="project-body">Pellentesque habitant morbi tristique senectus et netus et</p>
                         </div>
-                        <div class="col-md-10 col-sm-12 img-containor">
-                            <img class="image-body remove-margin" src="images/greece.jpg" alt="greece">
-                            <button type="button" class="button-click" data-role="button" data="greece">&#43;</button>
+                        <div class="col-md-10 col-sm-8 col-xs-12 img-containor">
+                            <img class="image-body remove-margin launch-modal" src="images/greece.jpg" data="greece" alt="greece">
+                            <button type="button" class="launch-modal" data-role="button" data="greece">&#43;</button>
                         </div>
-                        <div class="col-md-2 col-sm-12">
+                        <div class="col-md-2 col-sm-4 col-xs-12">
                            <h5 class="captilize margin-top-l header-with-border">London</h5>
                            <p class="project-body">Pellentesque habitant morbi tristique senectus et netus et</p>
-                           <h5 class="captilize margin-top-l header-with-border hidden-xs">Paris</h5>
-                           <p class="project-body hidden-xs">Pellentesque habitant morbi tristique senectus et netus et</p>
+                           <h5 class="captilize margin-top-l header-with-border hidden-sm hidden-xs">Paris</h5>
+                           <p class="project-body hidden-sm hidden-xs">Pellentesque habitant morbi tristique senectus et netus et</p>
                         </div>
-                        <div class="col-md-5 col-sm-12 img-containor">
-                            <img class="image-body remove-margin" src="images/london.jpg" alt="london">
-                            <button type="button" class="button-click" data-role="button" data="London">&#43;</button>
+                        <div class="col-md-5 col-sm-8 col-xs-12 img-containor">
+                            <img class="image-body remove-margin launch-modal" src="images/london.jpg" data="London" alt="london">
+                            <button type="button" class="launch-modal" data-role="button" data="London">&#43;</button>
                         </div>
-                        <div class="col-md-2 col-sm-12 visible-xs">
-                            <h5 class="captilize margin-top-l header-with-border visible-xs">Paris</h5>
-                           <p class="project-body visible-xs">Pellentesque habitant morbi tristique senectus et netus et</p>
+                        <div class="col-md-2 col-sm-4 col-xs-12 visible-sm visible-xs">
+                            <h5 class="captilize margin-top-l header-with-border">Paris</h5>
+                           <p class="project-body">Pellentesque habitant morbi tristique senectus et netus et</p>
                         </div>
-                        <div class="col-md-5 col-sm-12 img-containor">
-                            <img class="image-body remove-margin" src="images/paris.jpg" alt="paris">
-                            <button type="button" class="button-click" data-role="button" data="paris">&#43;</button>
+                        <div class="col-md-5 col-sm-8 col-xs-12 img-containor">
+                            <img class="image-body remove-margin launch-modal" src="images/paris.jpg" alt="paris" data="paris">
+                            <button type="button" class="launch-modal" data-role="button" data="paris">&#43;</button>
                         </div>
-                        
-                        
                     </div>
                 </div>
             </div>
 
-            
+            <!--    More Stations bottom of the page  -->
             <div class="col-md-offset-1 col-md-10 text-center">
-                
-                <h1 class="project-name captilize letterSpacing margin-top-l">More Destinations</h1>
+                <h1 class="project-name captilize letterSpacing margin-top-l">More Stations</h1>
                 <div class="project-subheading">
                     <span class="captilize">Lorem ipsum dolor sit amet</span>
                 </div>
-               
-                <div class="container-fluid no-padding">
+                <!--  Reason for using container with a container is because I have to divide the screen into four parts and I am using col 10 in first containor, it becomes easy to divides the screen equally into four parts using another container-->
+                <div class="container-fluid no-padding-xs">
                     <div class="row">
-                        <div class="col-md-3" class="button-click">
+                        <!-- Dividing screen into four halves for Laptops/ two halves for Tablets / Full screen for mobiles -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
                             <img class="image-body" src="images/taj-mahal.jpg" alt="india">
                             <h5 class="captilize">India</h5>
                             <p class="project-subheading">Lorem ipsum dolor sit</p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
                             <img class="image-body" src="images/malaysia.jpg" alt="malaysia">
                             <h5 class="captilize">Malaysia</h5>
                             <p class="project-subheading">Lorem ipsum dolor sit</p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
                             <img class="image-body" src="images/rio-Brazil.jpg" alt="brazil">
                             <h5 class="captilize">Rio - Brazil</h5>
                             <p class="project-subheading">Lorem ipsum dolor sit</p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
                             <img class="image-body" src="images/thailand.jpg" alt="thailand">
                             <h5 class="captilize">Thailand</h5>
                             <p class="project-subheading">Lorem ipsum dolor sit</p>
@@ -185,7 +179,7 @@
     </div>
     
 
-    <!-- Loading jquery and JS files at the end, which reduces the loading time  -->
+    <!-- Loading jquery and JS files   -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
